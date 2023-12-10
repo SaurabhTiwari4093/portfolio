@@ -9,7 +9,7 @@ import NodeImg from "../../public/tech/nodejs.svg";
 import ExpressImg from "../../public/tech/express.svg";
 import MongoDBImg from "../../public/tech/mongodb.svg";
 import AWSImg from "../../public/tech/aws.svg";
-import CPlusPlusImg from "../../public/tech/c++.svg";
+import CPlusPlusImg from "../../public/tech/cPlusPlus.svg";
 import PythonImg from "../../public/tech/python.svg";
 import GitHubImg from "../../public/tech/github.svg";
 import BitBucketImge from "../../public/tech/bitbucket.svg";

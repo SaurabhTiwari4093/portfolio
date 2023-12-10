@@ -1,6 +1,6 @@
 
 
-export default function Home() {
+function Home() {
   return (
     <>
       <title>Home</title>
@@ -10,3 +10,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home
