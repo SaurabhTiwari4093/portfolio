@@ -1,16 +1,14 @@
-import Navbar from "../components/navbar";
-import Profile from "../components/profile";
+import React from 'react'
 
-export default function Contact() {
+function Contact() {
   return (
     <>
       <title>Contact</title>
-      <main className="max-w-7xl mx-auto">
-        <div className="p-4">
-          <Profile />
-          <Navbar />
-        </div>
+      <main>
+        Contact
       </main>
     </>
-  );
+  )
 }
+
+export default Contact
