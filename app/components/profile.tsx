@@ -30,7 +30,7 @@ export default function Profile() {
           <Image
             src={ProfilePic}
             alt="Saurabh Tiwari"
-            className="rounded-full border-2 border-gray-400"
+            className="rounded-full border-2 border-gray-400 shadow-lg"
             height={180}
             width={180}
           />

@@ -1,3 +1,4 @@
+import Navbar from "./components/navbar";
 import Profile from "./components/profile";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <main className="max-w-6xl mx-auto">
         <div className="p-4">
           <Profile />
+          <Navbar />
         </div>
       </main>
     </>
