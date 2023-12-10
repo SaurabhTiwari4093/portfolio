@@ -46,7 +46,7 @@ export default function Profile() {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-b from-white to-gray-200 rounded-b border-2 border-t-0 p-4 flex items-center gap-4 overflow-x-scroll scroll-smooth no-scrollbar">
+      <div className="bg-gradient-to-b from-white to-gray-100 rounded-b border-2 border-t-0 p-4 flex items-center md:justify-center gap-4 overflow-x-scroll scroll-smooth no-scrollbar">
           <Image src={HTMLIMG} alt="HTML" height={40} width={40} />
           <Image src={CSSIMG} alt="CSS" height={40} width={40} />
           <Image src={JSIMG} alt="JavaScript" height={40} width={40} />
