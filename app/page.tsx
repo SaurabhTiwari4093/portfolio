@@ -1,13 +1,16 @@
+import Link from "next/link";
+import { PhoneIcon } from "@heroicons/react/24/solid";
+
 function Home() {
   return (
     <>
       <title>Home</title>
       <main className="grid grid-cols-3 gap-4 mb-4">
-        <div className="col-span-2 bg-gradient-to-b from-white to-gray-100 rounded shadow border p-4">
+        <div className="col-span-3 md:col-span-2 bg-gradient-to-b from-white to-gray-100 rounded shadow border p-4">
           <div className="text-3xl font-black text-gray-600 text-center mb-4">
-            About Me
+            About me
           </div>
-          <div className="text-gray-500 text-justify">
+          <div className="text-gray-500 text-justify text-sm md:text-base">
             <p className="mb-3">
               Hello! I'm Saurabh Tiwari, a dynamic software developer and a
               final-year undergraduate student at the Indian Institute of
@@ -43,9 +46,38 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="col-span-1 bg-gradient-to-b from-white to-gray-100 rounded shadow border p-4">
+        <div className="col-span-3 md:col-span-1 bg-gradient-to-b from-white to-gray-100 rounded shadow border p-4">
           <div className="text-3xl font-black text-gray-600 text-center mb-4">
-            Personal Info
+            Personal info
+          </div>
+          <div className="flex flex-col justify-between gap-16 text-gray-500">
+            <div className="flex flex-col gap-4 text-sm md:text-base">
+              <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
+                <div className="text-gray-600 font-semibold">Email</div>
+                <div>saurabhtiwari4093@gmail.com</div>
+              </div>
+              <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
+                <div className="text-gray-600 font-semibold">Phone</div>
+                <div>+918208183937</div>
+              </div>
+              <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
+                <div className="text-gray-600 font-semibold">Birthday</div>
+                <div>11th March 2002</div>
+              </div>
+              <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
+                <div className="text-gray-600 font-semibold">Country</div>
+                <div>India</div>
+              </div>
+            </div>
+            <div className="text-lg font-bold text-gray-600">
+              <Link
+                href="/contact"
+                className="flex gap-2 justify-center items-center py-4 px-4 bg-gray-200 hover:bg-gray-300 shadow rounded-full cursor-pointer"
+              >
+                <PhoneIcon className="w-6 h-6" />
+                <div>Contact</div>
+              </Link>
+            </div>
           </div>
         </div>
       </main>
