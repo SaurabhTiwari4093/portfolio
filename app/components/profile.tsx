@@ -47,27 +47,27 @@ export default function Profile() {
         </div>
       </div>
       <div className="bg-gradient-to-b from-white to-gray-100 rounded-b border-2 border-t-0 p-4 flex items-center md:justify-center gap-4 overflow-x-scroll scroll-smooth no-scrollbar">
-        <Image src={HTMLIMG} alt="HTML" height={40} width={40} />
-        <Image src={CSSIMG} alt="CSS" height={40} width={40} />
-        <Image src={JSIMG} alt="JavaScript" height={40} width={40} />
-        <Image src={ReactImg} alt="React Js" height={40} width={40} />
-        <Image src={NextImg} alt="Next Js" height={40} width={40} />
-        <Image src={NodeImg} alt="Node Js" height={40} width={40} />
-        <Image src={ExpressImg} alt="Express Js" height={40} width={40} />
-        <Image src={MongoDBImg} alt="MongoDB" height={40} width={40} />
-        <Image src={AWSImg} alt="AWS" height={40} width={40} />
-        <Image src={CPlusPlusImg} alt="C++" height={40} width={40} />
-        <Image src={PythonImg} alt="Python" height={40} width={40} />
-        <Image src={GitHubImg} alt="GitHub" height={40} width={40} />
-        <Image src={BitBucketImge} alt="BitBucket" height={40} width={40} />
-        <Image src={BootstrapImg} alt="Bootstrap" height={40} width={40} />
-        <Image src={FigmaImg} alt="Figma" height={40} width={40} />
-        <Image src={TailwindImg} alt="Tailwind" height={40} width={40} />
-        <Image src={MaterialImg} alt="Material" height={40} width={40} />
-        <Image src={MySQLImg} alt="MySQL" height={40} width={40} />
-        <Image src={FirebaseImg} alt="Firebase" height={40} width={40} />
-        <Image src={GoDaddy} alt="GoDaddy" height={40} width={40} />
-        <Image src={PostMan} alt="PostMan" height={40} width={40} />
+        <Image src={HTMLIMG} alt="HTML" height={35} width={35} />
+        <Image src={CSSIMG} alt="CSS" height={35} width={35} />
+        <Image src={JSIMG} alt="JavaScript" height={35} width={35} />
+        <Image src={ReactImg} alt="React Js" height={35} width={35} />
+        <Image src={NextImg} alt="Next Js" height={35} width={35} />
+        <Image src={NodeImg} alt="Node Js" height={35} width={35} />
+        <Image src={ExpressImg} alt="Express Js" height={35} width={35} />
+        <Image src={MongoDBImg} alt="MongoDB" height={35} width={35} />
+        <Image src={AWSImg} alt="AWS" height={35} width={35} />
+        <Image src={CPlusPlusImg} alt="C++" height={35} width={35} />
+        <Image src={PythonImg} alt="Python" height={35} width={35} />
+        <Image src={GitHubImg} alt="GitHub" height={35} width={35} />
+        <Image src={BitBucketImge} alt="BitBucket" height={35} width={35} />
+        <Image src={BootstrapImg} alt="Bootstrap" height={35} width={35} />
+        <Image src={FigmaImg} alt="Figma" height={35} width={35} />
+        <Image src={TailwindImg} alt="Tailwind" height={35} width={35} />
+        <Image src={MaterialImg} alt="Material" height={35} width={35} />
+        <Image src={MySQLImg} alt="MySQL" height={35} width={35} />
+        <Image src={FirebaseImg} alt="Firebase" height={35} width={35} />
+        <Image src={GoDaddy} alt="GoDaddy" height={35} width={35} />
+        <Image src={PostMan} alt="PostMan" height={35} width={35} />
       </div>
     </div>
   );
