@@ -60,8 +60,8 @@ function Home() {
                 <div>saurabhtiwari4093@gmail.com</div>
               </div>
               <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
-                <div className="text-gray-600 font-semibold">Phone</div>
-                <div>+918208183937</div>
+                <div className="text-gray-600 font-semibold">Contact No</div>
+                <div>+91 82081 83937</div>
               </div>
               <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
                 <div className="text-gray-600 font-semibold">Birthday</div>

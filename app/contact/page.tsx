@@ -122,12 +122,16 @@ function Contact() {
             <div className="flex justify-center gap-4">
               <Link
                 href="mailto:saurabhtiwari4093@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
               >
                 <Image src={EmailLogo} alt="Email" height={30} width={30} />
               </Link>
               <Link
                 href="https://www.linkedin.com/in/saurabh-tiwari-b6b640227/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
               >
                 <Image
@@ -139,12 +143,16 @@ function Contact() {
               </Link>
               <Link
                 href="https://github.com/SaurabhTiwari4093"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
               >
                 <Image src={GithubLogo} alt="GitHub" height={30} width={30} />
               </Link>
               <Link
                 href="https://wa.me/918208183937"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
               >
                 <Image
