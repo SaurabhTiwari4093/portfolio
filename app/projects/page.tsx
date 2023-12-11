@@ -1,7 +1,11 @@
+import Head from "next/head";
+
 function Projects() {
   return (
     <>
-      <title>Projects</title>
+      <Head>
+        <title>Saurabh Tiwari | Projects</title>
+      </Head>
       <main className="bg-gradient-to-b from-white to-gray-100 rounded shadow border p-4 mb-4">
         <div className="text-3xl font-black text-gray-600 text-center mb-4">
           Projects

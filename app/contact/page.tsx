@@ -10,6 +10,7 @@ import { SpinnerCircular } from "spinners-react";
 import { useState } from "react";
 import contactForm from "../components/firebase";
 import { Toaster, toast } from 'alert';
+import Head from "next/head";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -45,7 +46,9 @@ function Contact() {
 
   return (
     <>
-      <title>Contact</title>
+      <Head>
+      <title>Saurabh Tiwari | Contact</title>
+      </Head>
       <main className="bg-gradient-to-b from-white to-gray-100 rounded shadow border p-4 mb-4">
         <div className="text-3xl font-black text-gray-600 text-center mb-4">
           Contact
