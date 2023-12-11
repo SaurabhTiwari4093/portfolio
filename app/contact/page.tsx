@@ -113,7 +113,7 @@ function Contact() {
           </form>
           <div className="col-span-3 md:col-span-1 p-4 py-12">
             <div className="text-gray-500 text-center mb-4">
-              Do you want more direct communication? There's another way to
+              Do you want more direct communication? There is another way to
               contact me.
             </div>
             <div className="flex justify-center gap-4">
