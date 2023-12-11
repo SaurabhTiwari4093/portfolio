@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import GithubLogo from "../../public/contact/github.svg";
@@ -5,8 +6,22 @@ import LinkedINLogo from "../../public/contact/linkedin.svg";
 import EmailLogo from "../../public/contact/email.svg";
 import WhatsappLogo from "../../public/contact/whatsapp.svg";
 import { RocketLaunchIcon } from "@heroicons/react/24/solid";
+import { SpinnerCircular } from "spinners-react";
+import { useState } from "react";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const addContactDetails = (e: any) => {
+    e.preventDefault();
+    setLoading(true);
+    console.log(name, contactNumber, email, subject);
+  };
+
   return (
     <>
       <title>Contact</title>
@@ -19,35 +34,55 @@ function Contact() {
           contact me!
         </div>
         <div className="grid grid-cols-3 gap-4">
-          <form className="col-span-3 md:col-span-2 p-4">
+          <form
+            onSubmit={addContactDetails}
+            className="col-span-3 md:col-span-2 p-4"
+          >
             <div className="grid grid-cols-2 gap-4">
               <input
                 placeholder="Name"
                 required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 className="col-span-2 md:col-span-1 rounded shadow p-2 px-4 placeholder:text-gray-400 text-gray-600 focus:outline-gray-300"
               />
               <input
                 placeholder="Contact Number"
                 required
+                value={contactNumber}
+                onChange={(e) => setContactNumber(e.target.value)}
                 className="col-span-2 md:col-span-1 rounded shadow p-2 px-4 placeholder:text-gray-400 text-gray-600 focus:outline-gray-300"
               />
               <input
                 placeholder="Email address"
                 type="email"
                 required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="col-span-2 rounded shadow p-2 px-4 placeholder:text-gray-400 text-gray-600 focus:outline-gray-300"
               />
               <textarea
                 placeholder="Subject"
                 rows={4}
                 required
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
                 className="col-span-2 rounded shadow p-2 px-4 placeholder:text-gray-400 text-gray-600 focus:outline-gray-300"
               />
             </div>
             <div className="flex justify-center">
-              <button className="rounded-full shadow p-2 px-6 mt-4 text-gray-600 hover:text-gray-700 font-semibold flex items-center justify-center gap-1 bg-gray-200 hover:bg-gray-300">
-                <RocketLaunchIcon className="w-5 h-5" />
-                Send Message
+              <button
+                type="submit"
+                disabled={loading}
+                className="rounded-full shadow mt-4 text-gray-600 hover:text-gray-700 font-semibold flex items-center justify-center gap-1 bg-gray-200 hover:bg-gray-300 w-2/3 md:w-1/3 h-11"
+              >
+                {loading ? (
+                  <SpinnerCircular size={32} thickness={200} color='rgb(55 65 81)'/>
+                ) : (
+                  <>
+                    <RocketLaunchIcon className="w-5 h-5" /> {"Send Message"}
+                  </>
+                )}
               </button>
             </div>
           </form>
