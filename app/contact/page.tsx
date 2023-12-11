@@ -8,6 +8,8 @@ import WhatsappLogo from "../../public/contact/whatsapp.svg";
 import { RocketLaunchIcon } from "@heroicons/react/24/solid";
 import { SpinnerCircular } from "spinners-react";
 import { useState } from "react";
+import contactForm from "../components/firebase";
+import { Toaster, toast } from 'alert';
 
 function Contact() {
   const [name, setName] = useState("");
@@ -16,10 +18,29 @@ function Contact() {
   const [subject, setSubject] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const addContactDetails = (e: any) => {
+  const submitContactForm = async (e: any) => {
     e.preventDefault();
-    setLoading(true);
-    console.log(name, contactNumber, email, subject);
+    try {
+      setLoading(true);
+      const formData = {
+        name: name,
+        contactNumber: contactNumber,
+        email: email,
+        subject: subject,
+        date: new Date().toLocaleString(),
+      };
+      await contactForm(formData);
+      setLoading(false);
+      setName("");
+      setContactNumber("");
+      setEmail("");
+      setSubject("");
+      toast.success('Message sent successfully!')
+    } catch (err) {
+      setLoading(false);
+      console.log(err);
+      toast.error('Some error occurred!')
+    }
   };
 
   return (
@@ -35,7 +56,7 @@ function Contact() {
         </div>
         <div className="grid grid-cols-3 gap-4">
           <form
-            onSubmit={addContactDetails}
+            onSubmit={submitContactForm}
             className="col-span-3 md:col-span-2 p-4"
           >
             <div className="grid grid-cols-2 gap-4">
@@ -77,7 +98,11 @@ function Contact() {
                 className="rounded-full shadow mt-4 text-gray-600 hover:text-gray-700 font-semibold flex items-center justify-center gap-1 bg-gray-200 hover:bg-gray-300 w-2/3 md:w-1/3 h-11"
               >
                 {loading ? (
-                  <SpinnerCircular size={32} thickness={200} color='rgb(55 65 81)'/>
+                  <SpinnerCircular
+                    size={32}
+                    thickness={200}
+                    color="rgb(55 65 81)"
+                  />
                 ) : (
                   <>
                     <RocketLaunchIcon className="w-5 h-5" /> {"Send Message"}
@@ -130,6 +155,7 @@ function Contact() {
           </div>
         </div>
       </main>
+      <Toaster position='bottom-left'/>
     </>
   );
 }
