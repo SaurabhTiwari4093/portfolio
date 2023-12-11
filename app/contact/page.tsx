@@ -9,8 +9,7 @@ import { RocketLaunchIcon } from "@heroicons/react/24/solid";
 import { SpinnerCircular } from "spinners-react";
 import { useState } from "react";
 import contactForm from "../components/firebase";
-import { Toaster, toast } from 'alert';
-import Head from "next/head";
+import { Toaster, toast } from "alert";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -36,19 +35,16 @@ function Contact() {
       setContactNumber("");
       setEmail("");
       setSubject("");
-      toast.success('Message sent successfully!')
+      toast.success("Message sent successfully!");
     } catch (err) {
       setLoading(false);
       console.log(err);
-      toast.error('Some error occurred!')
+      toast.error("Some error occurred!");
     }
   };
 
   return (
     <>
-      <Head>
-      <title>Saurabh Tiwari | Contact</title>
-      </Head>
       <main className="bg-gradient-to-b from-white to-gray-100 rounded shadow border p-4 mb-4">
         <div className="text-3xl font-black text-gray-600 text-center mb-4">
           Contact
@@ -166,7 +162,7 @@ function Contact() {
           </div>
         </div>
       </main>
-      <Toaster position='bottom-left'/>
+      <Toaster position="bottom-left" />
     </>
   );
 }

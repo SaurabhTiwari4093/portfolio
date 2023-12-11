@@ -3,7 +3,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <div className="w-full flex justify-center text-center bg-gradient-to-b from-white to-gray-100 rounded shadow border p-4">
-      <div className="font-semibold text-gray-500 flex flex-col gap-2 items-center justify-center">
+      <div className="text-gray-500 flex flex-col gap-2 items-center justify-center">
         <div>
           &#169;2023 Designed and developed by{" "}
           <span className="text-gray-700">Saurabh Tiwari</span>
