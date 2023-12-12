@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import GithubLogo from "../../public/contact/github.svg";
 import LinkedINLogo from "../../public/contact/linkedin.svg";
 import EmailLogo from "../../public/contact/email.svg";
@@ -10,6 +8,7 @@ import { SpinnerCircular } from "spinners-react";
 import { useState } from "react";
 import contactForm from "../components/firebase";
 import { Toaster, toast } from "alert";
+import Social from "../components/social";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -116,48 +115,26 @@ function Contact() {
               contact me.
             </div>
             <div className="flex justify-center gap-4">
-              <Link
+              <Social
                 href="mailto:saurabhtiwari4093@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
-              >
-                <Image src={EmailLogo} alt="Email" height={30} width={30} />
-              </Link>
-              <Link
+                logo={EmailLogo}
+                alt="Email"
+              />
+              <Social
                 href="https://www.linkedin.com/in/saurabh-tiwari-b6b640227/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
-              >
-                <Image
-                  src={LinkedINLogo}
-                  alt="LinkedIn"
-                  height={30}
-                  width={30}
-                />
-              </Link>
-              <Link
+                logo={LinkedINLogo}
+                alt="LinkedIn"
+              />
+              <Social
                 href="https://github.com/SaurabhTiwari4093"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
-              >
-                <Image src={GithubLogo} alt="GitHub" height={30} width={30} />
-              </Link>
-              <Link
+                logo={GithubLogo}
+                alt="GitHub"
+              />
+              <Social
                 href="https://wa.me/918208183937"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
-              >
-                <Image
-                  src={WhatsappLogo}
-                  alt="Whatsapp"
-                  height={30}
-                  width={30}
-                />
-              </Link>
+                logo={WhatsappLogo}
+                alt="Whatsapp"
+              />
             </div>
           </div>
         </div>
