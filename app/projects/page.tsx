@@ -1,4 +1,4 @@
-
+import OneProject from "../components/project";
 
 function Projects() {
   return (
@@ -7,18 +7,10 @@ function Projects() {
         Projects
       </div>
       <div className="grid grid-cols-2 gap-4 text-gray-500">
-        <div className="col-span-1 rounded shadow p-4 bg-gradient-to-b from-white to-gray-100">
-          Project 1 coming soon...
-        </div>
-        <div className="col-span-1 rounded shadow p-4 bg-gradient-to-b from-white to-gray-100">
-          Project 2 coming soon...
-        </div>
-        <div className="col-span-1 rounded shadow p-4 bg-gradient-to-b from-white to-gray-100">
-          Project 3 coming soon...
-        </div>
-        <div className="col-span-1 rounded shadow p-4 bg-gradient-to-b from-white to-gray-100">
-          Project 4 coming soon...
-        </div>
+        <OneProject label="Project 1 coming soon..." />
+        <OneProject label="Project 2 coming soon..." />
+        <OneProject label="Project 3 coming soon..." />
+        <OneProject label="Project 4 coming soon..." />
       </div>
     </main>
   );

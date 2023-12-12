@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PhoneIcon } from "@heroicons/react/24/solid";
+import PersonalInfo from "./components/personalInfo";
 
 function Home() {
   return (
@@ -49,22 +50,10 @@ function Home() {
         </div>
         <div className="flex flex-col justify-between gap-16 text-gray-500">
           <div className="flex flex-col gap-4 text-sm md:text-base">
-            <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
-              <div className="text-gray-600 font-semibold">Email</div>
-              <div>saurabhtiwari4093@gmail.com</div>
-            </div>
-            <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
-              <div className="text-gray-600 font-semibold">Contact No</div>
-              <div>+91 82081 83937</div>
-            </div>
-            <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
-              <div className="text-gray-600 font-semibold">Birthday</div>
-              <div>11th March 2002</div>
-            </div>
-            <div className="flex gap-4 justify-between py-4 px-4 bg-gray-100 border rounded">
-              <div className="text-gray-600 font-semibold">Country</div>
-              <div>India</div>
-            </div>
+            <PersonalInfo label="Email" value="saurabhtiwari4093@gmail.com" />
+            <PersonalInfo label="Contact No" value="+91 82081 83937" />
+            <PersonalInfo label="Birthday" value="11th March 2002" />
+            <PersonalInfo label="Country" value="India" />
           </div>
           <div className="text-lg font-semibold text-gray-600">
             <Link
