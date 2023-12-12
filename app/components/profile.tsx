@@ -15,12 +15,12 @@ import DjangoImg from "../../public/tech/django.svg";
 export default function Profile() {
   return (
     <div className="w-full shadow rounded">
-      <div className="block md:flex md:flex-wrap justify-center items-center p-8 md:px-36 bg-gradient-to-b from-white to-gray-100 rounded-t border-2">
+      <div className="block md:flex md:flex-wrap justify-center items-center p-8 md:px-36 bg-gradient-to-b from-white to-gray-100 rounded-t border">
         <div className="md:w-1/4 flex justify-center md:justify-end md:pr-8">
           <Image
             src={ProfilePic}
             alt="Saurabh Tiwari"
-            className="rounded-full border-2 border-gray-400 shadow-lg"
+            className="rounded-full border shadow-lg"
             height={180}
             width={180}
           />
@@ -36,7 +36,7 @@ export default function Profile() {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-b from-white to-gray-100 rounded-b border-2 border-t-0 p-4 flex items-center md:justify-center gap-4 overflow-x-scroll scroll-smooth no-scrollbar">
+      <div className="bg-gradient-to-b from-white to-gray-100 rounded-b border border-t-0 p-4 flex items-center md:justify-center gap-4 overflow-x-scroll scroll-smooth no-scrollbar">
         <Image src={HTMLIMG} alt="HTML" height={40} width={40} />
         <Image src={CSSIMG} alt="CSS" height={40} width={40} />
         <Image src={JSIMG} alt="JavaScript" height={40} width={40} />
