@@ -8,6 +8,7 @@ import CPlusPlusImg from "../../public/tech/cPlusPlus.svg";
 import PythonImg from "../../public/tech/python.svg";
 import MySQLImg from "../../public/tech/mysql.svg";
 import DjangoImg from "../../public/tech/django.svg";
+import GitHubImg from "../../public/tech/github.svg";
 
 function Tech() {
   return (
@@ -24,6 +25,7 @@ function Tech() {
         <Image src={CPlusPlusImg} alt="C++" height={40} width={40} />
         <Image src={PythonImg} alt="Python" height={40} width={40} />
         <Image src={DjangoImg} alt="Django" height={40} width={40} />
+        <Image src={GitHubImg} alt="Flask" height={40} width={40} />
         <Image src={AWSImg} alt="AWS" height={40} width={40} />
       </div>
     </div>
