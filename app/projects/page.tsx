@@ -10,10 +10,6 @@ import NextImg from "../../public/tech/nextjs.svg";
 import NodeImg from "../../public/tech/nodejs.svg";
 import MongoDBImg from "../../public/tech/mongodb.svg";
 import AWSImg from "../../public/tech/aws.svg";
-import CPlusPlusImg from "../../public/tech/cPlusPlus.svg";
-import MySQLImg from "../../public/tech/mysql.svg";
-import DjangoImg from "../../public/tech/django.svg";
-import GitHubImg from "../../public/tech/github.svg";
 import TypescriptImg from "../../public/tech/typescript.svg";
 import TailwindImg from "../../public/tech/tailwind.svg";
 import FirebaseImg from "../../public/tech/firebase.svg";
@@ -24,6 +20,7 @@ import ExpressJsImg from "../../public/tech/expressjs.png";
 import FloodPredictorImg from "../../public/projects/floodPredictor.png";
 import PortfolioImg from "../../public/projects/portfolio.png";
 import IccntsdImg from "../../public/projects/iccntsd.png";
+
 
 function Projects() {
   return (
