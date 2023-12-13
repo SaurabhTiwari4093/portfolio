@@ -93,7 +93,7 @@ function Contact() {
               <button
                 type="submit"
                 disabled={loading}
-                className="rounded-full shadow mt-4 text-gray-600 hover:text-gray-700 font-semibold flex items-center justify-center gap-1 bg-gray-200 hover:bg-gray-300 w-2/3 md:w-1/3 h-11"
+                className="rounded-full shadow border mt-4 text-gray-600 hover:text-gray-700 font-semibold flex items-center justify-center gap-1 bg-white hover:bg-gray-50 w-2/3 md:w-1/3 h-11"
               >
                 {loading ? (
                   <SpinnerCircular

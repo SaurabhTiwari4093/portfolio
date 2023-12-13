@@ -62,7 +62,7 @@ function Home() {
             <div className="text-lg font-semibold text-gray-600">
               <Link
                 href="/contact"
-                className="flex gap-2 justify-center items-center py-4 px-4 bg-gray-200 hover:bg-gray-300 hover:text-gray-700 shadow rounded-full cursor-pointer border"
+                className="flex gap-2 justify-center items-center py-4 px-4 bg-white hover:bg-gray-50 shadow rounded-full cursor-pointer border"
               >
                 <PhoneIcon className="w-6 h-6" />
                 <div>Contact</div>

@@ -13,7 +13,7 @@ function Footer() {
             href="https://github.com/SaurabhTiwari4093/portfolio"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-100 border hover:bg-gray-200 px-4 py-1 rounded-full hover:text-gray-700"
+            className="bg-white border hover:bg-gray-50 px-4 py-1 rounded-full text-gray-700 shadow"
           >
             Source Code
           </Link>

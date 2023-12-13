@@ -10,8 +10,8 @@ function NavButtons(props: any) {
       target={props.label === "Resume" ? "_blank" : ""}
       rel={props.label === "Resume" ? "noopener noreferrer" : ""}
       className={`link ${
-        pathname === props.href ? "bg-gray-300" : ""
-      } px-6 md:px-8 py-2 rounded-full shadow bg-gray-100 hover:bg-gray-300 cursor-pointer flex gap-1 justify-center items-center border`}
+        pathname === props.href ? "bg-gray-50" : ""
+      } px-6 md:px-8 py-2 rounded-full shadow bg-white hover:bg-gray-50 cursor-pointer flex gap-1 justify-center items-center border`}
     >
       {props.icon}
       <div className="hidden md:block">{props.label}</div>

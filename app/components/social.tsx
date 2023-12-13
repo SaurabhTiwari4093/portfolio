@@ -7,7 +7,7 @@ function Social(props: any) {
       href={props.href}
       target="_blank"
       rel="noopener noreferrer"
-      className="p-2 shadow rounded-full bg-gray-200 hover:bg-gray-300"
+      className="p-2 shadow rounded-full bg-white hover:bg-gray-50 border"
     >
       <Image src={props.logo} alt={props.alt} height={30} width={30} />
     </Link>
