@@ -15,9 +15,9 @@ function Project(props: any) {
           {props.desc}
         </div>
         <div className="flex flex-wrap gap-4 items-center mb-4">
-          {props.techs.map((tech: any) => {
+          {props.techs.map((tech: any,key:any) => {
             return (
-              <Image src={tech.img} alt={tech.alt} height={25} width={25} />
+              <Image src={tech.img} alt={tech.alt} height={25} width={25} key={key}/>
             );
           })}
         </div>

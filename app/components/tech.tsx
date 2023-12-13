@@ -11,7 +11,7 @@ import DjangoImg from "../../public/tech/django.svg";
 
 function Tech() {
   return (
-    <div className="bg-gradient-to-b from-white to-gray-100 rounded border my-4 p-4">
+    <div className="bg-gradient-to-b from-white to-gray-100 rounded border my-4 p-4 shadow">
       <div className="text-3xl font-black text-gray-600 text-center">
         Tech I like
       </div>
