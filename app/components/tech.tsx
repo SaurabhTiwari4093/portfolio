@@ -8,7 +8,6 @@ import CPlusPlusImg from "../../public/tech/cPlusPlus.svg";
 import PythonImg from "../../public/tech/python.svg";
 import MySQLImg from "../../public/tech/mysql.svg";
 import DjangoImg from "../../public/tech/django.svg";
-import NextImg from "../../public/tech/nextjs.svg";
 
 function Tech() {
   return (
@@ -19,7 +18,6 @@ function Tech() {
       <div className="flex items-center md:justify-center gap-4 overflow-x-scroll scroll-smooth no-scrollbar mt-4">
         <Image src={JSIMG} alt="JavaScript" height={40} width={40} />
         <Image src={ReactImg} alt="React Js" height={40} width={40} />
-        <Image src={NextImg} alt="Next Js" height={40} width={40} />
         <Image src={NodeImg} alt="Node Js" height={40} width={40} />
         <Image src={MongoDBImg} alt="MongoDB" height={40} width={40} />
         <Image src={MySQLImg} alt="MySQL" height={40} width={40} />
