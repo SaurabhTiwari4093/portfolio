@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { EyeIcon, CodeBracketSquareIcon } from "@heroicons/react/24/solid";
@@ -15,9 +15,15 @@ function Project(props: any) {
           {props.desc}
         </div>
         <div className="flex flex-wrap gap-4 items-center mb-4">
-          {props.techs.map((tech: any,key:any) => {
+          {props.techs.map((tech: any, key: any) => {
             return (
-              <Image src={tech.img} alt={tech.alt} height={25} width={25} key={key}/>
+              <Image
+                src={tech.img}
+                alt={tech.alt}
+                height={25}
+                width={25}
+                key={key}
+              />
             );
           })}
         </div>
@@ -26,7 +32,7 @@ function Project(props: any) {
             <Link href={props.href} target="_blank" rel="noopener noreferrer">
               <button className="bg-gray-200 hover:bg-gray-300 rounded-full shadow border font-semibold py-1.5 px-6 flex gap-1 items-center justify-center">
                 <EyeIcon className="h-4 w-4" />
-                Watch online
+                <span className="hidden md:block">Watch online</span>
               </button>
             </Link>
           ) : (
@@ -35,7 +41,7 @@ function Project(props: any) {
           <Link href={props.code} target="_blank" rel="noopener noreferrer">
             <button className="bg-gray-200 hover:bg-gray-300 rounded-full shadow border font-semibold py-1.5 px-6 flex gap-1 items-center justify-center">
               <CodeBracketSquareIcon className="h-4 w-4" />
-              View Source
+              <span className="hidden md:block">View Source</span>
             </button>
           </Link>
         </div>

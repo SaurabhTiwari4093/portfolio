@@ -87,6 +87,10 @@ function Projects() {
               img: FlaskImg,
               alt: "Flask",
             },
+            {
+              img:AWSImg,
+              alt:"AWS",
+            },
           ]}
           href={"https://flood-predictor.iccntsd.in/"}
           code={"https://github.com/SaurabhTiwari4093/Flood-Forecasting"}
