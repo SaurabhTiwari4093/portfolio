@@ -11,7 +11,7 @@ function NavButtons(props: any) {
       rel={props.label === "Resume" ? "noopener noreferrer" : ""}
       className={`link ${
         pathname === props.href ? "bg-gray-300" : ""
-      } px-6 md:px-8 py-2 rounded-full shadow bg-gray-100 hover:bg-gray-300 cursor-pointer flex gap-1 justify-center items-center`}
+      } px-6 md:px-8 py-2 rounded-full shadow bg-gray-100 hover:bg-gray-300 cursor-pointer flex gap-1 justify-center items-center border`}
     >
       {props.icon}
       <div className="hidden md:block">{props.label}</div>
