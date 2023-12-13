@@ -28,7 +28,7 @@ function Projects() {
       <div className="text-3xl font-black text-gray-600 text-center mb-4">
         Projects
       </div>
-      <div className="grid grid-cols-2 gap-4 text-gray-500">
+      <div className="grid grid-cols-6 gap-4 text-gray-500">
         <OneProject
           image={PortfolioImg}
           title={"Portfolio"}
