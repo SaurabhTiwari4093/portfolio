@@ -23,6 +23,7 @@ import IccntsdImg from "../../public/projects/iccntsd.png";
 import BHMImg from "../../public/projects/bhm.png";
 import News247Img from "../../public/projects/news247.png";
 import CurrencyConverterImg from "../../public/projects/currencyConverter.png";
+import KapableImg from "../../public/projects/kapable.png";
 
 function Projects() {
   return (
@@ -181,6 +182,33 @@ function Projects() {
           ]}
           href={"#"}
           code={"https://github.com/SaurabhTiwari4093/News_24_7"}
+        />
+        <OneProject
+          image={KapableImg}
+          title={"Kapable"}
+          desc={
+            "The website is about Kapable, an online learning platform that aims to empower children with 21st century skills such as communication, creativity, logic, and entrepreneurship."
+          }
+          techs={[
+            {
+              img: NextImg,
+              alt: "Next Js",
+            },
+            {
+              img: TailwindImg,
+              alt: "Tailwind CSS",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: VercelImg,
+              alt: "Vercel",
+            },
+          ]}
+          href={"https://kapable-landing.vercel.app/"}
+          code={"https://github.com/SaurabhTiwari4093/kapable"}
         />
         <OneProject
           image={CurrencyConverterImg}
