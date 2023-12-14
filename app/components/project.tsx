@@ -6,7 +6,11 @@ import { EyeIcon, CodeBracketSquareIcon } from "@heroicons/react/24/solid";
 function Project(props: any) {
   return (
     <div className="col-span-6 md:col-span-3 lg:col-span-2 rounded shadow bg-white border">
-      <Image src={props.image} alt={props.title} className="w-full h-52 rounded-t" />
+      <Image
+        src={props.image}
+        alt={props.title}
+        className="w-full h-52 rounded-t"
+      />
       <div className="p-4">
         <div className="text-lg md:text-2xl font-bold text-center text-gray-600 mb-4">
           {props.title}
@@ -38,12 +42,16 @@ function Project(props: any) {
           ) : (
             <></>
           )}
-          <Link href={props.code} target="_blank" rel="noopener noreferrer">
-            <button className="bg-gray-50 hover:bg-gray-100 rounded-full shadow border font-semibold py-1.5 px-4 flex gap-1 items-center justify-center">
-              <CodeBracketSquareIcon className="h-4 w-4" />
-              <span className="hidden md:block">View Source</span>
-            </button>
-          </Link>
+          {props.code !== "#" ? (
+            <Link href={props.code} target="_blank" rel="noopener noreferrer">
+              <button className="bg-gray-50 hover:bg-gray-100 rounded-full shadow border font-semibold py-1.5 px-4 flex gap-1 items-center justify-center">
+                <CodeBracketSquareIcon className="h-4 w-4" />
+                <span className="hidden md:block">View Source</span>
+              </button>
+            </Link>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>

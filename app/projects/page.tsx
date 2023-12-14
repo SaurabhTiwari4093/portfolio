@@ -20,7 +20,8 @@ import ExpressJsImg from "../../public/tech/expressjs.png";
 import FloodPredictorImg from "../../public/projects/floodPredictor.png";
 import PortfolioImg from "../../public/projects/portfolio.png";
 import IccntsdImg from "../../public/projects/iccntsd.png";
-
+import BHMImg from "../../public/projects/bhm.png";
+import News247 from "../../public/projects/news247.png";
 
 function Projects() {
   return (
@@ -115,7 +116,7 @@ function Projects() {
               alt: "JavaScript",
             },
             {
-              img:NodeImg,
+              img: NodeImg,
               alt: "Node Js",
             },
             {
@@ -133,6 +134,68 @@ function Projects() {
           ]}
           href={"https://www.iccntsd.in/"}
           code={"https://github.com/SaurabhTiwari4093/ICCNTSD-Backend"}
+        />
+        <OneProject
+          image={BHMImg}
+          title={"BHM IIT Delhi"}
+          desc={
+            "The Board for Hostel Management provides a welcoming home where students create memories, share ideas, and grow alongside friends."
+          }
+          techs={[
+            {
+              img: HTMLIMG,
+              alt: "HTML",
+            },
+            {
+              img: CSSIMG,
+              alt: "CSS",
+            },
+            {
+              img: BootstrapImg,
+              alt: "Bootstrap",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: ReactImg,
+              alt: "React Js",
+            },
+          ]}
+          href={"https://bhm.iitd.ac.in/"}
+          code={"#"}
+        />
+        <OneProject
+          image={News247}
+          title={"News 24-7"}
+          desc={
+            "The website provides the latest news headlines from various categories such as business, entertainment, health, science, sports, and technology. "
+          }
+          techs={[
+            {
+              img: HTMLIMG,
+              alt: "HTML",
+            },
+            {
+              img: CSSIMG,
+              alt: "CSS",
+            },
+            {
+              img: BootstrapImg,
+              alt: "Bootstrap",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: ReactImg,
+              alt: "React Js",
+            },
+          ]}
+          href={"#"}
+          code={"https://github.com/SaurabhTiwari4093/News_24_7"}
         />
       </div>
     </main>
