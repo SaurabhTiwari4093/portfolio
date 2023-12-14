@@ -21,7 +21,8 @@ import FloodPredictorImg from "../../public/projects/floodPredictor.png";
 import PortfolioImg from "../../public/projects/portfolio.png";
 import IccntsdImg from "../../public/projects/iccntsd.png";
 import BHMImg from "../../public/projects/bhm.png";
-import News247 from "../../public/projects/news247.png";
+import News247Img from "../../public/projects/news247.png";
+import CurrencyConverterImg from "../../public/projects/currencyConverter.png";
 
 function Projects() {
   return (
@@ -159,7 +160,7 @@ function Projects() {
           code={"#"}
         />
         <OneProject
-          image={News247}
+          image={News247Img}
           title={"News 24-7"}
           desc={
             "The website provides the latest news headlines from various categories such as business, entertainment, health, science, sports, and technology. "
@@ -180,6 +181,29 @@ function Projects() {
           ]}
           href={"#"}
           code={"https://github.com/SaurabhTiwari4093/News_24_7"}
+        />
+        <OneProject
+          image={CurrencyConverterImg}
+          title={"Currency Converter"}
+          desc={
+            "This website is a currency converter that allows users to convert between different currencies and view the conversion rates."
+          }
+          techs={[
+            {
+              img: ReactImg,
+              alt: "React Js",
+            },
+            {
+              img: BootstrapImg,
+              alt: "Bootstrap",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+          ]}
+          href={"#"}
+          code={"https://github.com/SaurabhTiwari4093/currency-converter"}
         />
       </div>
     </main>
