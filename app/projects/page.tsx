@@ -162,9 +162,9 @@ function Projects() {
         />
         <OneProject
           image={News247Img}
-          title={"News 24-7"}
+          title={"Hacker News"}
           desc={
-            "The website provides the latest news headlines from various categories such as business, entertainment, health, science, sports, and technology. "
+            "he website is a news aggregator that features top stories from the Hacker News community."
           }
           techs={[
             {
@@ -180,7 +180,7 @@ function Projects() {
               alt: "JavaScript",
             },
           ]}
-          href={"#"}
+          href={"https://hacker-news-saurabh.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/News_24_7"}
         />
         <OneProject
