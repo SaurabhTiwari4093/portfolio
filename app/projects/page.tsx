@@ -181,7 +181,7 @@ function Projects() {
             },
           ]}
           href={"https://hacker-news-saurabh.vercel.app/"}
-          code={"https://github.com/SaurabhTiwari4093/News_24_7"}
+          code={"https://github.com/SaurabhTiwari4093/hacker-news"}
         />
         <OneProject
           image={KapableImg}
