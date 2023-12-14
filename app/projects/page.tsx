@@ -143,12 +143,8 @@ function Projects() {
           }
           techs={[
             {
-              img: HTMLIMG,
-              alt: "HTML",
-            },
-            {
-              img: CSSIMG,
-              alt: "CSS",
+              img: ReactImg,
+              alt: "React Js",
             },
             {
               img: BootstrapImg,
@@ -157,11 +153,7 @@ function Projects() {
             {
               img: JSIMG,
               alt: "JavaScript",
-            },
-            {
-              img: ReactImg,
-              alt: "React Js",
-            },
+            }, 
           ]}
           href={"https://bhm.iitd.ac.in/"}
           code={"#"}
@@ -174,12 +166,8 @@ function Projects() {
           }
           techs={[
             {
-              img: HTMLIMG,
-              alt: "HTML",
-            },
-            {
-              img: CSSIMG,
-              alt: "CSS",
+              img: ReactImg,
+              alt: "React Js",
             },
             {
               img: BootstrapImg,
@@ -188,10 +176,6 @@ function Projects() {
             {
               img: JSIMG,
               alt: "JavaScript",
-            },
-            {
-              img: ReactImg,
-              alt: "React Js",
             },
           ]}
           href={"#"}
