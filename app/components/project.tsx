@@ -12,26 +12,28 @@ function Project(props: any) {
         className="w-full h-52 rounded-t"
         loading="lazy"
       />
-      <div className="p-4">
-        <div className="text-lg md:text-2xl font-bold text-center text-gray-600 mb-4">
-          {props.title}
-        </div>
-        <div className="text-sm md:text-base mb-4 text-gray-500">
-          {props.desc}
-        </div>
-        <div className="flex flex-wrap gap-4 items-center mb-4">
-          {props.techs.map((tech: any, key: any) => {
-            return (
-              <Image
-                src={tech.img}
-                alt={tech.alt}
-                height={25}
-                width={25}
-                key={key}
-                loading="lazy"
-              />
-            );
-          })}
+      <div className="p-4 md:h-80 flex flex-col justify-between">
+        <div>
+          <div className="text-lg md:text-2xl font-bold text-center text-gray-600 mb-4">
+            {props.title}
+          </div>
+          <div className="text-sm md:text-base mb-4 text-gray-500">
+            {props.desc}
+          </div>
+          <div className="flex flex-wrap gap-4 items-center mb-4">
+            {props.techs.map((tech: any, key: any) => {
+              return (
+                <Image
+                  src={tech.img}
+                  alt={tech.alt}
+                  height={25}
+                  width={25}
+                  key={key}
+                  loading="lazy"
+                />
+              );
+            })}
+          </div>
         </div>
         <div className="flex gap-4 items-center justify-center text-gray-600 text-sm">
           {props.href !== "#" ? (
