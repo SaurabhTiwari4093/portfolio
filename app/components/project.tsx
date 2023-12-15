@@ -18,7 +18,9 @@ function Project(props: any) {
             {props.title}
           </div>
           <div className="text-sm md:text-base mb-4 text-gray-500">
-            {props.desc}
+            {props.desc.length > 250
+              ? props.desc.substring(0, 250) + "..."
+              : props.desc}
           </div>
           <div className="flex flex-wrap gap-4 items-center mb-4">
             {props.techs.map((tech: any, key: any) => {
