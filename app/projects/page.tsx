@@ -9,11 +9,9 @@ import ReactImg from "../../public/tech/react.svg";
 import NextImg from "../../public/tech/nextjs.svg";
 import NodeImg from "../../public/tech/nodejs.svg";
 import MongoDBImg from "../../public/tech/mongodb.svg";
-import AWSImg from "../../public/tech/aws.svg";
 import TypescriptImg from "../../public/tech/typescript.svg";
 import TailwindImg from "../../public/tech/tailwind.svg";
 import FirebaseImg from "../../public/tech/firebase.svg";
-import VercelImg from "../../public/tech/vercel.svg";
 import BootstrapImg from "../../public/tech/bootstrap.svg";
 import ExpressJsImg from "../../public/tech/expressjs.png";
 
@@ -26,6 +24,9 @@ import CurrencyConverterImg from "../../public/projects/currencyConverter.png";
 import KapableImg from "../../public/projects/kapable.png";
 import TodoImg from "../../public/projects/todo.png";
 import TextUtilesImg from "../../public/projects/textUtiles.png";
+import EdcIITDImg from "../../public/projects/edc-iitd.png";
+import CapEdcIITDImg from "../../public/projects/cap-edc-iitd.png";
+import BeconEdcIITDImg from "../../public/projects/becon-edc-iitd.png";
 
 function Projects() {
   return (
@@ -57,10 +58,6 @@ function Projects() {
               img: FirebaseImg,
               alt: "Firebase",
             },
-            {
-              img: VercelImg,
-              alt: "Vercel",
-            },
           ]}
           href={"https://www.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/portfolio"}
@@ -91,10 +88,6 @@ function Projects() {
             {
               img: FlaskImg,
               alt: "Flask",
-            },
-            {
-              img: AWSImg,
-              alt: "AWS",
             },
           ]}
           href={"https://flood-predictor.iccntsd.in/"}
@@ -131,10 +124,6 @@ function Projects() {
               img: MongoDBImg,
               alt: "MongoDB",
             },
-            {
-              img: AWSImg,
-              alt: "AWS",
-            },
           ]}
           href={"https://www.iccntsd.in/"}
           code={"https://github.com/SaurabhTiwari4093/ICCNTSD-Backend"}
@@ -163,6 +152,134 @@ function Projects() {
           code={"#"}
         />
         <OneProject
+          image={KapableImg}
+          title={"Kapable"}
+          desc={
+            "The website is about Kapable, an online learning platform that aims to empower children with 21st century skills such as communication, creativity, logic, and entrepreneurship."
+          }
+          techs={[
+            {
+              img: NextImg,
+              alt: "Next Js",
+            },
+            {
+              img: TailwindImg,
+              alt: "Tailwind CSS",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+          ]}
+          href={"https://kapable-landing.vercel.app/"}
+          code={"https://github.com/SaurabhTiwari4093/kapable"}
+        />
+        <OneProject
+          image={EdcIITDImg}
+          title={"eDC IIT Delhi"}
+          desc={
+            "The Entrepreneurship Development Cell of IIT Delhi was set up in January 2007 with a vision to promote and nurture Entrepreneurship amongst the student community and help aspiring student entrepreneurs achieve their entrepreneurial aspirations."
+          }
+          techs={[
+            {
+              img: HTMLIMG,
+              alt: "HTML",
+            },
+            {
+              img: BootstrapImg,
+              alt: "Bootstrap",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: NodeImg,
+              alt: "Node Js",
+            },
+            {
+              img: ExpressJsImg,
+              alt: "Express Js",
+            },
+            {
+              img: MongoDBImg,
+              alt: "MongoDB",
+            },
+          ]}
+          href={"https://edc-iitd.onrender.com/"}
+          code={"https://github.com/SaurabhTiwari4093/eDC-Main-Website"}
+        />
+        <OneProject
+          image={CapEdcIITDImg}
+          title={"CAP eDC IIT Delhi"}
+          desc={
+            "With the Campus Ambassador Program, we offer a platform with the best of both worlds - mentorship from experienced entrepreneurs and various skills training opportunities."
+          }
+          techs={[
+            {
+              img: HTMLIMG,
+              alt: "HTML",
+            },
+            {
+              img: BootstrapImg,
+              alt: "Bootstrap",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: NodeImg,
+              alt: "Node Js",
+            },
+            {
+              img: ExpressJsImg,
+              alt: "Express Js",
+            },
+            {
+              img: MongoDBImg,
+              alt: "MongoDB",
+            },
+          ]}
+          href={"https://cap-edc-iitd.onrender.com/"}
+          code={"https://github.com/SaurabhTiwari4093/CAP-eDC-IITD"}
+        />
+        <OneProject
+          image={BeconEdcIITDImg}
+          title={"BECON'23 eDC IIT Delhi"}
+          desc={
+            "eDC IIT Delhi's Business & Entrepreneurship Conclave with 50+ events spread across 3 days is one of the biggest E-summit of India. eDC IIT Delhi aspires to inculcate the entrepreneurial environment in our country by creating an easily accessible set of resources and connecting people with entrepreneurial mindset."
+          }
+          techs={[
+            {
+              img: HTMLIMG,
+              alt: "HTML",
+            },
+            {
+              img: BootstrapImg,
+              alt: "Bootstrap",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: NodeImg,
+              alt: "Node Js",
+            },
+            {
+              img: ExpressJsImg,
+              alt: "Express Js",
+            },
+            {
+              img: MongoDBImg,
+              alt: "MongoDB",
+            },
+          ]}
+          href={"https://becon-edc-iitd.onrender.com/"}
+          code={"https://github.com/SaurabhTiwari4093/BECon-eDC-IITD"}
+        />
+        <OneProject
           image={HackerNewsImg}
           title={"Hacker News"}
           desc={
@@ -184,33 +301,6 @@ function Projects() {
           ]}
           href={"https://hacker-news-saurabh.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/hacker-news"}
-        />
-        <OneProject
-          image={KapableImg}
-          title={"Kapable"}
-          desc={
-            "The website is about Kapable, an online learning platform that aims to empower children with 21st century skills such as communication, creativity, logic, and entrepreneurship."
-          }
-          techs={[
-            {
-              img: NextImg,
-              alt: "Next Js",
-            },
-            {
-              img: TailwindImg,
-              alt: "Tailwind CSS",
-            },
-            {
-              img: JSIMG,
-              alt: "JavaScript",
-            },
-            {
-              img: VercelImg,
-              alt: "Vercel",
-            },
-          ]}
-          href={"https://kapable-landing.vercel.app/"}
-          code={"https://github.com/SaurabhTiwari4093/kapable"}
         />
         <OneProject
           image={CurrencyConverterImg}
