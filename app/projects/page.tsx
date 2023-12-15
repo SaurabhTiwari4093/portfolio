@@ -164,7 +164,7 @@ function Projects() {
           image={HackerNewsImg}
           title={"Hacker News"}
           desc={
-            "he website is a news aggregator that features top stories from the Hacker News community."
+            "This website is Hacker News, a social news website focusing on computer science and entrepreneurship. It features user-submitted stories, comments, and upvotes."
           }
           techs={[
             {
