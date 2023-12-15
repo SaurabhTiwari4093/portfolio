@@ -21,7 +21,7 @@ import FloodPredictorImg from "../../public/projects/floodPredictor.png";
 import PortfolioImg from "../../public/projects/portfolio.png";
 import IccntsdImg from "../../public/projects/iccntsd.png";
 import BHMImg from "../../public/projects/bhm.png";
-import News247Img from "../../public/projects/news247.png";
+import HackerNewsImg from "../../public/projects/hackerNews.png";
 import CurrencyConverterImg from "../../public/projects/currencyConverter.png";
 import KapableImg from "../../public/projects/kapable.png";
 
@@ -161,7 +161,7 @@ function Projects() {
           code={"#"}
         />
         <OneProject
-          image={News247Img}
+          image={HackerNewsImg}
           title={"Hacker News"}
           desc={
             "he website is a news aggregator that features top stories from the Hacker News community."
