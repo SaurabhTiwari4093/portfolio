@@ -14,6 +14,7 @@ import TailwindImg from "../../public/tech/tailwind.svg";
 import FirebaseImg from "../../public/tech/firebase.svg";
 import BootstrapImg from "../../public/tech/bootstrap.svg";
 import ExpressJsImg from "../../public/tech/expressjs.png";
+import MaterialUIImg from "../../public/tech/materialUI.svg";
 
 import FloodPredictorImg from "../../public/projects/floodPredictor.png";
 import PortfolioImg from "../../public/projects/portfolio.png";
@@ -27,6 +28,7 @@ import TextUtilesImg from "../../public/projects/textUtiles.png";
 import EdcIITDImg from "../../public/projects/edc-iitd.png";
 import CapEdcIITDImg from "../../public/projects/cap-edc-iitd.png";
 import BeconEdcIITDImg from "../../public/projects/becon-edc-iitd.png";
+import OpportunityPortalImg from "../../public/projects/opportunity-portal.png";
 
 function Projects() {
   return (
@@ -61,6 +63,41 @@ function Projects() {
           ]}
           href={"https://www.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/portfolio"}
+        />
+        <OneProject
+          image={OpportunityPortalImg}
+          title={"Opportunity Portal"}
+          desc={
+            "This website is the Opportunity Portal of eDC IITD, where students and startups can connect for internships and jobs. The website allows users to select their user type, view the available opportunities, and apply online."
+          }
+          techs={[
+            {
+              img: ReactImg,
+              alt: "Next Js",
+            },
+            {
+              img: MaterialUIImg,
+              alt: "Material UI",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: NodeImg,
+              alt: "Node Js",
+            },
+            {
+              img: ExpressJsImg,
+              alt: "Express Js",
+            },
+            {
+              img: MongoDBImg,
+              alt: "MongoDB",
+            },
+          ]}
+          href={"https://opportunity-portal.onrender.com/"}
+          code={"https://github.com/SaurabhTiwari4093/Opportunity-Portal"}
         />
         <OneProject
           image={FloodPredictorImg}
