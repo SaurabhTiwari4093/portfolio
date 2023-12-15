@@ -9,7 +9,7 @@ function Social(props: any) {
       rel="noopener noreferrer"
       className="p-2 shadow rounded-full bg-white hover:bg-gray-50 border"
     >
-      <Image src={props.logo} alt={props.alt} height={30} width={30} />
+      <Image src={props.logo} alt={props.alt} height={30} width={30} loading="lazy"/>
     </Link>
   );
 }

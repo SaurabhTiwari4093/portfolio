@@ -24,6 +24,8 @@ import BHMImg from "../../public/projects/bhm.png";
 import HackerNewsImg from "../../public/projects/hackerNews.png";
 import CurrencyConverterImg from "../../public/projects/currencyConverter.png";
 import KapableImg from "../../public/projects/kapable.png";
+import TodoImg from "../../public/projects/todo.png";
+import TextUtilesImg from "../../public/projects/textUtiles.png";
 
 function Projects() {
   return (
@@ -155,7 +157,7 @@ function Projects() {
             {
               img: JSIMG,
               alt: "JavaScript",
-            }, 
+            },
           ]}
           href={"https://bhm.iitd.ac.in/"}
           code={"#"}
@@ -232,6 +234,52 @@ function Projects() {
           ]}
           href={"#"}
           code={"https://github.com/SaurabhTiwari4093/currency-converter"}
+        />
+        <OneProject
+          image={TodoImg}
+          title={"Todo List"}
+          desc={
+            "This website is a simple todo-list application that allows users to add, view, and manage their tasks. It has a about and home page, where users can enter the title, description, due date, and due time of their todos."
+          }
+          techs={[
+            {
+              img: ReactImg,
+              alt: "React Js",
+            },
+            {
+              img: BootstrapImg,
+              alt: "Bootstrap",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+          ]}
+          href={"https://todo-list-saurabh.vercel.app/"}
+          code={"https://github.com/SaurabhTiwari4093/todo-list"}
+        />
+        <OneProject
+          image={TextUtilesImg}
+          title={"Text Utiles"}
+          desc={
+            "Text Utiles is a website that provides various tools for text analysis and manipulation, such as converting text to upper or lower case, clearing text."
+          }
+          techs={[
+            {
+              img: ReactImg,
+              alt: "React Js",
+            },
+            {
+              img: BootstrapImg,
+              alt: "Bootstrap",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+          ]}
+          href={"https://text-utiles-saurabh.vercel.app/"}
+          code={"https://github.com/SaurabhTiwari4093/Text-Utiles"}
         />
       </div>
     </main>

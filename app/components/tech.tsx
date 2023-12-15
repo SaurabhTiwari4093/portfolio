@@ -17,16 +17,16 @@ function Tech() {
         Tech I like
       </div>
       <div className="flex items-center md:justify-center gap-4 overflow-x-scroll scroll-smooth no-scrollbar mt-4">
-        <Image src={JSIMG} alt="JavaScript" height={40} width={40} />
-        <Image src={ReactImg} alt="React Js" height={40} width={40} />
-        <Image src={NodeImg} alt="Node Js" height={40} width={40} />
-        <Image src={MongoDBImg} alt="MongoDB" height={40} width={40} />
-        <Image src={MySQLImg} alt="MySQL" height={40} width={40} />
-        <Image src={CPlusPlusImg} alt="C++" height={40} width={40} />
-        <Image src={PythonImg} alt="Python" height={40} width={40} />
-        <Image src={DjangoImg} alt="Django" height={40} width={40} />
-        <Image src={GitHubImg} alt="Flask" height={40} width={40} />
-        <Image src={AWSImg} alt="AWS" height={40} width={40} />
+        <Image src={JSIMG} alt="JavaScript" height={40} width={40} loading="lazy"/>
+        <Image src={ReactImg} alt="React Js" height={40} width={40} loading="lazy"/>
+        <Image src={NodeImg} alt="Node Js" height={40} width={40} loading="lazy"/>
+        <Image src={MongoDBImg} alt="MongoDB" height={40} width={40} loading="lazy"/>
+        <Image src={MySQLImg} alt="MySQL" height={40} width={40} loading="lazy"/>
+        <Image src={CPlusPlusImg} alt="C++" height={40} width={40} loading="lazy"/>
+        <Image src={PythonImg} alt="Python" height={40} width={40} loading="lazy"/>
+        <Image src={DjangoImg} alt="Django" height={40} width={40} loading="lazy"/>
+        <Image src={GitHubImg} alt="Flask" height={40} width={40} loading="lazy"/>
+        <Image src={AWSImg} alt="AWS" height={40} width={40} loading="lazy"/>
       </div>
     </div>
   );

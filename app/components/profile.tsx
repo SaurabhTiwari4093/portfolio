@@ -11,6 +11,7 @@ export default function Profile() {
           className="rounded-full border shadow-lg"
           height={180}
           width={180}
+          loading="lazy"
         />
       </div>
       <div className="md:w-3/4 text-center md:text-left">

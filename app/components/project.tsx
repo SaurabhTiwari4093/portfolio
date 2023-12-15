@@ -10,6 +10,7 @@ function Project(props: any) {
         src={props.image}
         alt={props.title}
         className="w-full h-52 rounded-t"
+        loading="lazy"
       />
       <div className="p-4">
         <div className="text-lg md:text-2xl font-bold text-center text-gray-600 mb-4">
@@ -27,6 +28,7 @@ function Project(props: any) {
                 height={25}
                 width={25}
                 key={key}
+                loading="lazy"
               />
             );
           })}
