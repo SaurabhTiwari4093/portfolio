@@ -25,7 +25,7 @@ function Navbar() {
         label="Contact"
       />
       <NavButtons
-        href="/Saurabh_Tiwari_Resume.pdf"
+        href="/Saurabh-Tiwari-Resume.pdf"
         icon={<NewspaperIcon className="w-5 h-5" />}
         label="Resume"
       />
