@@ -30,6 +30,7 @@ import CapEdcIITDImg from "../../public/projects/cap-edc-iitd.png";
 import BeconEdcIITDImg from "../../public/projects/becon-edc-iitd.png";
 import OpportunityPortalImg from "../../public/projects/opportunity-portal.png";
 import DemoDashboardImg from "../../public/projects/demo-dashboard.png";
+import MailHeroImg from "../../public/projects/mailhero.png";
 
 function Projects() {
   return (
@@ -69,7 +70,7 @@ function Projects() {
           image={OpportunityPortalImg}
           title={"Opportunity Portal"}
           desc={
-            "This website is the Opportunity Portal of eDC IITD, where students and startups can connect for internships and jobs. The website allows users to select their user type, view the available opportunities, and apply online."
+            "This webapp is the Opportunity Portal of eDC IITD, where students and startups can connect for internships and jobs. The website allows users to select their user type, view the available opportunities, and apply online."
           }
           techs={[
             {
@@ -339,6 +340,37 @@ function Projects() {
           ]}
           href={"https://edc-iitd.onrender.com/"}
           code={"https://github.com/SaurabhTiwari4093/eDC-Main-Website"}
+        />
+        <OneProject
+          image={MailHeroImg}
+          title={"Mail Hero"}
+          desc={
+            "The webapp is called MailHero that allows users to send bulk emails with an attached Excel file containing the recipients details. Users can specify the email subject, body, and upload an Excel file with the email addresses and names of the receivers before sending the mail."
+          }
+          techs={[
+            {
+              img: ReactImg,
+              alt: "Next Js",
+            },
+            {
+              img: MaterialUIImg,
+              alt: "Material UI",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: NodeImg,
+              alt: "Node Js",
+            },
+            {
+              img: ExpressJsImg,
+              alt: "Express Js",
+            },
+          ]}
+          href={"https://mailhero.onrender.com/"}
+          code={"https://github.com/SaurabhTiwari4093/mailhero"}
         />
         <OneProject
           image={HackerNewsImg}
