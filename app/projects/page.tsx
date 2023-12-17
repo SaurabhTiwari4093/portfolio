@@ -29,6 +29,7 @@ import EdcIITDImg from "../../public/projects/edc-iitd.png";
 import CapEdcIITDImg from "../../public/projects/cap-edc-iitd.png";
 import BeconEdcIITDImg from "../../public/projects/becon-edc-iitd.png";
 import OpportunityPortalImg from "../../public/projects/opportunity-portal.png";
+import DemoDashboardImg from "../../public/projects/demo-dashboard.png";
 
 function Projects() {
   return (
@@ -212,10 +213,33 @@ function Projects() {
           code={"https://github.com/SaurabhTiwari4093/kapable"}
         />
         <OneProject
-          image={EdcIITDImg}
-          title={"eDC IIT Delhi"}
+          image={DemoDashboardImg}
+          title={"Student Teacher Dashboard"}
           desc={
-            "The Entrepreneurship Development Cell of IIT Delhi was set up in January 2007 with a vision to promote and nurture Entrepreneurship amongst the student community and help aspiring student entrepreneurs achieve their entrepreneurial aspirations."
+            "The demonstration website is a dashboard for managing educational curriculum, assignments, students, and teachers, with quick access links for administrators."
+          }
+          techs={[
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: NextImg,
+              alt: "Next Js",
+            },
+            {
+              img: TailwindImg,
+              alt: "Tailwind CSS",
+            }
+          ]}
+          href={"https://student-teacher-dashboard-saurabh.vercel.app/"}
+          code={"https://github.com/SaurabhTiwari4093/student-teacher-dashboard"}
+        />
+        <OneProject
+          image={BeconEdcIITDImg}
+          title={"BECON'23 eDC IIT Delhi"}
+          desc={
+            "eDC IIT Delhi's Business & Entrepreneurship Conclave with 50+ events spread across 3 days is one of the biggest E-summit of India. eDC IIT Delhi aspires to inculcate the entrepreneurial environment in our country by creating an easily accessible set of resources and connecting people with entrepreneurial mindset."
           }
           techs={[
             {
@@ -243,8 +267,8 @@ function Projects() {
               alt: "MongoDB",
             },
           ]}
-          href={"https://edc-iitd.onrender.com/"}
-          code={"https://github.com/SaurabhTiwari4093/eDC-Main-Website"}
+          href={"https://becon-edc-iitd.onrender.com/"}
+          code={"https://github.com/SaurabhTiwari4093/BECon-eDC-IITD"}
         />
         <OneProject
           image={CapEdcIITDImg}
@@ -282,10 +306,10 @@ function Projects() {
           code={"https://github.com/SaurabhTiwari4093/CAP-eDC-IITD"}
         />
         <OneProject
-          image={BeconEdcIITDImg}
-          title={"BECON'23 eDC IIT Delhi"}
+          image={EdcIITDImg}
+          title={"eDC IIT Delhi"}
           desc={
-            "eDC IIT Delhi's Business & Entrepreneurship Conclave with 50+ events spread across 3 days is one of the biggest E-summit of India. eDC IIT Delhi aspires to inculcate the entrepreneurial environment in our country by creating an easily accessible set of resources and connecting people with entrepreneurial mindset."
+            "The Entrepreneurship Development Cell of IIT Delhi was set up in January 2007 with a vision to promote and nurture Entrepreneurship amongst the student community and help aspiring student entrepreneurs achieve their entrepreneurial aspirations."
           }
           techs={[
             {
@@ -313,8 +337,8 @@ function Projects() {
               alt: "MongoDB",
             },
           ]}
-          href={"https://becon-edc-iitd.onrender.com/"}
-          code={"https://github.com/SaurabhTiwari4093/BECon-eDC-IITD"}
+          href={"https://edc-iitd.onrender.com/"}
+          code={"https://github.com/SaurabhTiwari4093/eDC-Main-Website"}
         />
         <OneProject
           image={HackerNewsImg}
