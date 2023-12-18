@@ -15,6 +15,8 @@ import FirebaseImg from "../../public/tech/firebase.svg";
 import BootstrapImg from "../../public/tech/bootstrap.svg";
 import ExpressJsImg from "../../public/tech/expressjs.png";
 import MaterialUIImg from "../../public/tech/materialUI.svg";
+import VercelImg from "../../public/tech/vercel.svg";
+import AWSImg from "../../public/tech/aws.svg";
 
 import FloodPredictorImg from "../../public/projects/floodPredictor.png";
 import PortfolioImg from "../../public/projects/portfolio.png";
@@ -62,6 +64,10 @@ function Projects() {
               img: FirebaseImg,
               alt: "Firebase",
             },
+            {
+              img:VercelImg,
+              alt: "Vercel",
+            }
           ]}
           href={"https://www.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/portfolio"}
@@ -97,8 +103,12 @@ function Projects() {
               img: MongoDBImg,
               alt: "MongoDB",
             },
+            {
+              img:AWSImg,
+              alt: "AWS",
+            }
           ]}
-          href={"https://opportunity-portal.onrender.com/"}
+          href={"https://opportunity-portal.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/Opportunity-Portal"}
         />
         <OneProject
@@ -128,6 +138,10 @@ function Projects() {
               img: FlaskImg,
               alt: "Flask",
             },
+            {
+              img:AWSImg,
+              alt: "AWS",
+            }
           ]}
           href={"https://flood-predictor.iccntsd.in/"}
           code={"https://github.com/SaurabhTiwari4093/Flood-Forecasting"}
@@ -163,6 +177,10 @@ function Projects() {
               img: MongoDBImg,
               alt: "MongoDB",
             },
+            {
+              img:AWSImg,
+              alt: "AWS",
+            }
           ]}
           href={"https://www.iccntsd.in/"}
           code={"https://github.com/SaurabhTiwari4093/ICCNTSD-Backend"}
@@ -209,6 +227,10 @@ function Projects() {
               img: JSIMG,
               alt: "JavaScript",
             },
+            {
+              img:VercelImg,
+              alt: "Vercel",
+            }
           ]}
           href={"https://kapable-landing.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/kapable"}
@@ -231,6 +253,10 @@ function Projects() {
             {
               img: TailwindImg,
               alt: "Tailwind CSS",
+            },
+            {
+              img:VercelImg,
+              alt: "Vercel",
             }
           ]}
           href={"https://student-teacher-dashboard-saurabh.vercel.app/"}
@@ -267,8 +293,12 @@ function Projects() {
               img: MongoDBImg,
               alt: "MongoDB",
             },
+            {
+              img:AWSImg,
+              alt: "AWS",
+            }
           ]}
-          href={"https://becon-edc-iitd.onrender.com/"}
+          href={"https://becon-edc-iitd.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/BECon-eDC-IITD"}
         />
         <OneProject
@@ -302,8 +332,12 @@ function Projects() {
               img: MongoDBImg,
               alt: "MongoDB",
             },
+            {
+              img:AWSImg,
+              alt: "AWS",
+            }
           ]}
-          href={"https://cap-edc-iitd.onrender.com/"}
+          href={"https://cap-edc-iitd.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/CAP-eDC-IITD"}
         />
         <OneProject
@@ -337,8 +371,12 @@ function Projects() {
               img: MongoDBImg,
               alt: "MongoDB",
             },
+            {
+              img:AWSImg,
+              alt: "AWS",
+            }
           ]}
-          href={"https://edc-iitd.onrender.com/"}
+          href={"https://edc-iitd.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/eDC-Main-Website"}
         />
         <OneProject
@@ -368,8 +406,12 @@ function Projects() {
               img: ExpressJsImg,
               alt: "Express Js",
             },
+            {
+              img:AWSImg,
+              alt: "AWS",
+            }
           ]}
-          href={"https://mailhero.onrender.com/"}
+          href={"https://mailhero.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/mailhero"}
         />
         <OneProject
@@ -391,6 +433,10 @@ function Projects() {
               img: JSIMG,
               alt: "JavaScript",
             },
+            {
+              img:VercelImg,
+              alt: "Vercel",
+            }
           ]}
           href={"https://hacker-news-saurabh.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/hacker-news"}
@@ -437,6 +483,10 @@ function Projects() {
               img: JSIMG,
               alt: "JavaScript",
             },
+            {
+              img:VercelImg,
+              alt: "Vercel",
+            }
           ]}
           href={"https://todo-list-saurabh.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/todo-list"}
@@ -460,6 +510,10 @@ function Projects() {
               img: JSIMG,
               alt: "JavaScript",
             },
+            {
+              img:VercelImg,
+              alt: "Vercel",
+            }
           ]}
           href={"https://text-utiles-saurabh.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/Text-Utiles"}
