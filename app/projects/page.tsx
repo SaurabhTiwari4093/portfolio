@@ -33,6 +33,7 @@ import BeconEdcIITDImg from "../../public/projects/becon-edc-iitd.png";
 import OpportunityPortalImg from "../../public/projects/opportunity-portal.png";
 import DemoDashboardImg from "../../public/projects/demo-dashboard.png";
 import MailHeroImg from "../../public/projects/mailhero.png";
+import ChatAppImg from "../../public/projects/chatApp.png";
 
 function Projects() {
   return (
@@ -65,9 +66,9 @@ function Projects() {
               alt: "Firebase",
             },
             {
-              img:VercelImg,
+              img: VercelImg,
               alt: "Vercel",
-            }
+            },
           ]}
           href={"https://www.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/portfolio"}
@@ -104,9 +105,9 @@ function Projects() {
               alt: "MongoDB",
             },
             {
-              img:AWSImg,
+              img: AWSImg,
               alt: "AWS",
-            }
+            },
           ]}
           href={"https://opportunity-portal.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/Opportunity-Portal"}
@@ -139,9 +140,9 @@ function Projects() {
               alt: "Flask",
             },
             {
-              img:AWSImg,
+              img: AWSImg,
               alt: "AWS",
-            }
+            },
           ]}
           href={"https://flood-predictor.iccntsd.in/"}
           code={"https://github.com/SaurabhTiwari4093/Flood-Forecasting"}
@@ -178,9 +179,9 @@ function Projects() {
               alt: "MongoDB",
             },
             {
-              img:AWSImg,
+              img: AWSImg,
               alt: "AWS",
-            }
+            },
           ]}
           href={"https://www.iccntsd.in/"}
           code={"https://github.com/SaurabhTiwari4093/ICCNTSD-Backend"}
@@ -228,9 +229,9 @@ function Projects() {
               alt: "JavaScript",
             },
             {
-              img:VercelImg,
+              img: VercelImg,
               alt: "Vercel",
-            }
+            },
           ]}
           href={"https://kapable-landing.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/kapable"}
@@ -255,12 +256,14 @@ function Projects() {
               alt: "Tailwind CSS",
             },
             {
-              img:VercelImg,
+              img: VercelImg,
               alt: "Vercel",
-            }
+            },
           ]}
           href={"https://student-teacher-dashboard-saurabh.vercel.app/"}
-          code={"https://github.com/SaurabhTiwari4093/student-teacher-dashboard"}
+          code={
+            "https://github.com/SaurabhTiwari4093/student-teacher-dashboard"
+          }
         />
         <OneProject
           image={BeconEdcIITDImg}
@@ -294,9 +297,9 @@ function Projects() {
               alt: "MongoDB",
             },
             {
-              img:AWSImg,
+              img: AWSImg,
               alt: "AWS",
-            }
+            },
           ]}
           href={"https://becon-edc-iitd.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/BECon-eDC-IITD"}
@@ -333,9 +336,9 @@ function Projects() {
               alt: "MongoDB",
             },
             {
-              img:AWSImg,
+              img: AWSImg,
               alt: "AWS",
-            }
+            },
           ]}
           href={"https://cap-edc-iitd.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/CAP-eDC-IITD"}
@@ -372,12 +375,43 @@ function Projects() {
               alt: "MongoDB",
             },
             {
-              img:AWSImg,
+              img: AWSImg,
               alt: "AWS",
-            }
+            },
           ]}
           href={"https://edc-iitd.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/eDC-Main-Website"}
+        />
+        <OneProject
+          image={ChatAppImg}
+          title={"Chat App"}
+          desc={
+            "A basic chat application built using Next JS, Socket.io and Node Js."
+          }
+          techs={[
+            {
+              img: NextImg,
+              alt: "Next Js",
+            },
+            {
+              img: TailwindImg,
+              alt: "Tailwind CSS",
+            },
+            {
+              img: JSIMG,
+              alt: "JavaScript",
+            },
+            {
+              img: NodeImg,
+              alt: "Node Js",
+            },
+            {
+              img: VercelImg,
+              alt: "Vercel",
+            },
+          ]}
+          href={"https://chat-app-saurabh.vercel.app/"}
+          code={"https://github.com/SaurabhTiwari4093/chat-app-frontend"}
         />
         <OneProject
           image={MailHeroImg}
@@ -388,7 +422,7 @@ function Projects() {
           techs={[
             {
               img: ReactImg,
-              alt: "Next Js",
+              alt: "React Js",
             },
             {
               img: MaterialUIImg,
@@ -407,9 +441,9 @@ function Projects() {
               alt: "Express Js",
             },
             {
-              img:AWSImg,
+              img: AWSImg,
               alt: "AWS",
-            }
+            },
           ]}
           href={"https://mailhero.saurabh-tiwari.tech/"}
           code={"https://github.com/SaurabhTiwari4093/mailhero"}
@@ -434,9 +468,9 @@ function Projects() {
               alt: "JavaScript",
             },
             {
-              img:VercelImg,
+              img: VercelImg,
               alt: "Vercel",
-            }
+            },
           ]}
           href={"https://hacker-news-saurabh.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/hacker-news"}
@@ -484,9 +518,9 @@ function Projects() {
               alt: "JavaScript",
             },
             {
-              img:VercelImg,
+              img: VercelImg,
               alt: "Vercel",
-            }
+            },
           ]}
           href={"https://todo-list-saurabh.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/todo-list"}
@@ -511,9 +545,9 @@ function Projects() {
               alt: "JavaScript",
             },
             {
-              img:VercelImg,
+              img: VercelImg,
               alt: "Vercel",
-            }
+            },
           ]}
           href={"https://text-utiles-saurabh.vercel.app/"}
           code={"https://github.com/SaurabhTiwari4093/Text-Utiles"}
