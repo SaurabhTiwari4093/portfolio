@@ -7,7 +7,7 @@ Welcome to my portfolio website! I am Saurabh Tiwari, a passionate software deve
 - **Framework:** [Next.js](https://nextjs.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Database:** [Firebase Firestore](https://firebase.google.com/docs/firestore)
-- **Deployment:** [Vercel](https://vercel.com/)
+- **Deployment:** [AWS](https://aws.amazon.com/)
 
 ## About the Project
 
@@ -50,6 +50,6 @@ Feel free to reach out to me if you have any questions or if you'd like to colla
 - **GitHub**: https://github.com/SaurabhTiwari4093/
 
 ## Deployment
-This project is deployed on Vercel. You can visit the live version of the portfolio at https://www.saurabh-tiwari.tech/.
+This project is deployed on AWS. You can visit the live version of the portfolio at https://www.saurabh-tiwari.tech/.
 
 Thank you for visiting my portfolio! I look forward to connecting with you.
