@@ -144,7 +144,7 @@ function Projects() {
               alt: "AWS",
             },
           ]}
-          href={"https://flood-predictor.iccntsd.in/"}
+          href={"#"}
           code={"https://github.com/SaurabhTiwari4093/Flood-Forecasting"}
         />
         <OneProject
@@ -183,7 +183,7 @@ function Projects() {
               alt: "AWS",
             },
           ]}
-          href={"https://www.iccntsd.in/"}
+          href={"#"}
           code={"https://github.com/SaurabhTiwari4093/ICCNTSD-Backend"}
         />
         <OneProject
